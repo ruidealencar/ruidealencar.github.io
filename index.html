@@ -191,10 +191,12 @@
     <div id="contact">
         <h2>Envie sua mensagem</h2>
         <div id="contact-form">
-            <form method="POST" action="http://formspree.io/ruidealencar@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Seu Email" required>
-                <textarea name="message" placeholder="Envie sua mensagem" required></textarea>
+            <form action="https://formspree.io/ruidealencar@gmail.com"
+                  method="POST" >
+                <input type="hidden" name="_subject" value="//ruidealencar.github.io" />
+                <input type="text" name="name" placeholder="Nome">
+                <input type="email" name="_replyto" placeholder="Email">
+                <textarea name="message" placeholder="Envie sua mensagem"></textarea>
                 <button type="submit">Enviar</button>
             </form>
         </div>
