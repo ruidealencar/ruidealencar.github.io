@@ -219,6 +219,7 @@ body.active{
 		color:#3498db;
 		background:#fff;
 		text-decoration:none
+
 	}
 
 	.shadow{
@@ -272,14 +273,14 @@ body.active{
 	}
 
 	#lead-content h1,#lead-content h2{
-		margin:0
+		margin:0px;
 	}
 
 	#lead-content h1{
 		color:#fff;
 		font-weight:900;
 		font-size:4em;
-		text-transform:uppercase;
+		
 		letter-spacing:0.05em;
 		line-height:0.9em
 	}
@@ -786,6 +787,7 @@ body.active{
 	#menu li{
 		display:block;
 		margin-bottom:10px
+
 	}
 
 	#lead-content h1{
