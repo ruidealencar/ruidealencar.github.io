@@ -1,16 +1,3 @@
-/*!
-    Title: Dev Portfolio Template
-    Version: 1.2.1
-    Last Change: 08/28/2017
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
-    Description: This file contains all the styles associated with the page
-    that don't come from third party libraries. This file gets compiled using
-    Gulp and send to the /css folder which is then loaded on the page.
-*/
-
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px
@@ -92,19 +79,19 @@ header li {
 
 header a {
     display: block;
-    color: #3498db;
+    color: #16527a;
     padding: 10px
 }
 
 header a:hover {
-    color: #217dbb;
+    color: #16527a;
     text-decoration: none;
     background: #eee;
     border-radius: 4px
 }
 
 header a:focus {
-    color: #3498db;
+    color: #16527a;
     text-decoration: none
 }
 
@@ -127,7 +114,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #3498db;
+    color: #16527a;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -144,7 +131,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #3498db
+    color: #16527a
 }
 
 #mobile-menu-close span {
@@ -210,7 +197,7 @@ footer {
 }
 
 .social a:hover {
-    color: #3498db
+    color: #16527a
 }
 
 .btn-rounded-white {
@@ -223,7 +210,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-    color: #3498db;
+    color: #16527a;
     background: #fff;
     text-decoration: none
 }
@@ -253,7 +240,7 @@ footer {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background: #3498db
+    background: #16527a
 }
 
 .background-alt {
@@ -309,7 +296,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(33, 125, 187, 0.8);
+    background: rgba(1, 30, 51, 0.8);
     z-index: 1
 }
 
@@ -331,7 +318,7 @@ footer {
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border: 3px solid #a0cfee;
+    border: 3px solid #c0c0c0;
     text-align: center
 }
 
@@ -392,7 +379,7 @@ footer {
     right: auto;
     height: 100%;
     width: 3px;
-    background: #3498db;
+    background: #16527a;
     z-index: 0
 }
 
@@ -401,8 +388,8 @@ footer {
     content: '';
     width: 3px;
     height: 40px;
-    background: #3498db;
-    background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+    background: #16527a;
+    background: linear-gradient(to bottom, #16527a, rgba(52, 152, 219, 0));
     top: 100%;
     left: 303px
 }
@@ -449,7 +436,7 @@ footer {
     color: #fff;
     width: 50px;
     height: 50px;
-    background: #3498db;
+    background: #16527a;
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -607,7 +594,7 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    background: #3498db;
+    background: #16527a;
     text-align: center
 }
 
@@ -675,7 +662,7 @@ footer {
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
-    color: #3498db;
+    color: #16527a;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: .5s ease all
